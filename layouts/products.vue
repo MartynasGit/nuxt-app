@@ -1,18 +1,18 @@
 <template>
   <div>
-    <header>
-      <nav>
-        <NuxtLink to="/products">Nuxt app store</NuxtLink>
+    <header class="shadow-sm bg-white">
+      <nav class="container mx-auto p-4 flex justify-between">
+        <NuxtLink to="/products" class="font-bold">Nuxt app store</NuxtLink>
       </nav>
     </header>
 
     <!-- Page content  -->
-    <div>
+    <div class="container mx-auto p-4">
       <slot></slot>
     </div>
     <!-- Products footer -->
-    <footer>
-      <ul>
+    <footer class="container mx-auto p-4 flex justify-between border-t-2">
+      <ul class="flex gap-4">
         <li>
           <NuxtLink to="/"> Home </NuxtLink>
         </li>

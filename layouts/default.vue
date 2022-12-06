@@ -1,9 +1,9 @@
 <template>
   <div>
-    <header>
-      <nav>
-        <NuxtLink to="/">Nuxt app</NuxtLink>
-        <ul>
+    <header class="shadow-sm bg-white">
+      <nav class="container mx-auto p-4 flex justify-between">
+        <NuxtLink to="/" class="font-bold">Nuxt app</NuxtLink>
+        <ul class="flex gap-4">
           <li>
             <NuxtLink to="/"> Home </NuxtLink>
           </li>
@@ -18,7 +18,7 @@
     </header>
 
     <!-- Page content  -->
-    <div>
+    <div class="cotainer mx-auto p-4">
       <slot></slot>
     </div>
   </div>
