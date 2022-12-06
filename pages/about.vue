@@ -1,22 +1,27 @@
 <template>
-    <div>
-        <h2>About </h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illo exercitationem quae, in maxime quam incidunt repellat! Tenetur, perspiciatis ad!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illo exercitationem quae, in maxime quam incidunt repellat! Tenetur, perspiciatis ad!</p>
-    </div>
+  <div>
+    <h2>About</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illo
+      exercitationem quae, in maxime quam incidunt repellat! Tenetur,
+      perspiciatis ad!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illo
+      exercitationem quae, in maxime quam incidunt repellat! Tenetur,
+      perspiciatis ad!
+    </p>
+  </div>
 </template>
 
-<script setup>
-
-</script>
+<script setup></script>
 
 <style scoped>
-h2{
-    margin-bottom: 20px;
-    font-size: 36px;
+h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
 }
-p{
-    margin: 20px 0;
+p {
+  margin: 20px 0;
 }
-
 </style>
