@@ -11,10 +11,22 @@
       iure expedita perferendis officia corporis at eius sed perspiciatis amet.
       Temporibus earum nemo iste facere odit facilis sunt minima iure.
     </p>
+    <div>{{ data }}</div>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+
+// const { data } = await useFetch('/api/ninja?name=Mario', {
+//   method: 'post',
+//   body: {
+//     age: 30
+//   }
+// })
+
+const { data } = await useFetch('/api/ninja')
+
+</script>
 
 <style scoped>
 h2 {
